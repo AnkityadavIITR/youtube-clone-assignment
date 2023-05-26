@@ -29,22 +29,20 @@ const Videolist = ({ videoData, setVideoData }) => {
       }
     };
     fetchData();
-  }, [slide]);
+  }, [slide,setVideoData]);
 
   useEffect(() => {
     console.log(param, "PARAM");
-    findVideo();
-  }, [param]);
-
-  //to find video
-  const findVideo = () => {
+    
+    //to find video
     const video = videoData?.data?.posts?.filter(
       (element) => element.postId === param
     );
     console.log(video?.[0]);
     setVideo(video?.[0]);
-  };
+  }, [param ,videoData]);
   
+
   //to play and pause the video of card
   const handleCardClick = () => {
     if (isPlaying) {
@@ -67,7 +65,6 @@ const Videolist = ({ videoData, setVideoData }) => {
         <VideoCardWrapper>
           <Videocard >
             <Control>
-
               <button onClick={onClickBack}><ClearIcon style={{ color: 'white' }}/></button>
               <div style={{ color: 'white' }}>
 
