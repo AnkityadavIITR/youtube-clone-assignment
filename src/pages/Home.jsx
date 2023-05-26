@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Pagination from '../components/Pagination'
 import Videolist from '../components/Videolist'
 
 const Home = ({videoData , setVideoData , slide, setSlide}) => {
