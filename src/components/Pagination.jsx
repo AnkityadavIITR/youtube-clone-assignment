@@ -37,13 +37,13 @@ const PageContainer=styled.div`
   @media (max-width: 400px){
     width: 90%;
     padding-left: 5%;
-    position: sticky;
     z-index: 200;
   }
   @media (max-width: 688px){
     width: 90%;
     align-self: center;
     position: static;
+    position: sticky;
     z-index: 200;
   }
  
