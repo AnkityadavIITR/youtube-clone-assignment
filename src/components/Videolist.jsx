@@ -191,7 +191,10 @@ const Control=styled.div`
 const VideoCardWrapper = styled.div`
   padding: 40px 0px;
   background-color: #f9f9f9;
-
+  
+  @media (max-width: 600px){
+    padding: 0px;
+  }
 `;
 
 const Videocard = styled.div`

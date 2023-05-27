@@ -34,13 +34,14 @@ const PageContainer=styled.div`
   padding: 10px 260px 10px 0px;
   background-color: #F9F9F9;
 
-  @media (max-width: 400px){
+
+  @media (max-width: 688px){
     width: 90%;
-    padding-left: 5%;
-  }
-  @media (max-width: 688px) and ( min-width: 400px){
-    width: 80%;
-    padding-left: 40px;
+    padding-left: 4%;
+    align-self: center;
+    align-content: center;
+    position: static;
+    z-index: 200;
   }
  
 `
