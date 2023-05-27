@@ -34,12 +34,15 @@ const PageContainer=styled.div`
   padding: 10px 260px 10px 0px;
   background-color: #F9F9F9;
 
-
+  @media (max-width: 400px){
+    width: 90%;
+    padding-left: 5%;
+    position: sticky;
+    z-index: 200;
+  }
   @media (max-width: 688px){
     width: 90%;
-    padding-left: 4%;
     align-self: center;
-    align-content: center;
     position: static;
     z-index: 200;
   }
