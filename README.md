@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 you can see the app running on https://youtubeshortsclone.netlify.app/ .\
-download the zip or clone it to local machine.\
+download the zip or clone it to local machine.
 
 ### `npm install` or `npm i`
-download the dependencies using.\
+download the dependencies using.
 
 
 
