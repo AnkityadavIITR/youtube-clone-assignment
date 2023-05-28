@@ -2,7 +2,7 @@
 
 you can see the app running on https://youtubeshortsclone.netlify.app/ .\
 download the zip or clone it to local machine.\
-download the dependencies using.\
+download the dependencies using
 ### `npm install` or `npm i`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
